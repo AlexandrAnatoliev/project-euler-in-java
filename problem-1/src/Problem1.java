@@ -2,9 +2,9 @@
  * project Euler problem 1
  *
  * @author AlexandrAnatoliev
- * @version 0.1.0
+ * @version 0.1.1 2024-10-19
  */
-public class Main {
+public class Problem1 {
     public static void main(String[] args) {
 
         int answer = 0;
@@ -17,8 +17,8 @@ public class Main {
         System.out.println("Answer = " + answer);
     }
 
-    static boolean isMultiples(int num) {
-        return (num % 3) == 0 || (num % 5) == 0;
+    private static boolean isMultiples(int number) {
+        return (number % 3) == 0 || (number % 5) == 0;
     }
 }
 
