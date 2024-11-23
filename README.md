@@ -12,3 +12,10 @@
 
 Код каждой задачи будет оформляться полноценным проектом, изучаемые попутно вопросы будут конспектироваться в папку docs/.
 
+### Список решенных задач
+
+1. [Числа, кратные 3 или 5](problem-1/README.md)
+   * Работа с IDE: [горячие клавиши и boiler plates IntelliJ IDEA](../doc-files/intellij-idea-hot-keys-and-boilerplates.md)
+   * Работа с git:
+       * [основные команды git](../doc-files/git-commands.md)
+       * [создание pull request](../doc-files/pull-request-example.md)
