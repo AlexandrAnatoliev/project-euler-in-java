@@ -1,4 +1,6 @@
-# Горячие клавиши и boilerplates IntelliJ IDEA
+<div id="header" align="center">
+    <h1>Горячие клавиши и boiler plates IntelliJ IDEA</h1>
+</div>
 
 | Горячие клавиши             |                                                    |
 |-----------------------------|----------------------------------------------------|
