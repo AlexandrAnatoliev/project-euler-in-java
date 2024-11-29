@@ -159,7 +159,7 @@
 | Ctrl + Shift + A            | найти действие                                            |
 | Ctrl + Alt + V              | добавление переменой n1 + n2 -> int i = n1 + n2           |
 
-
+| boiler plates |                                             |
 |---------------|---------------------------------------------|
 | sout          | System.out.println();                       |
 | souf          | System.out.printf():                        |
