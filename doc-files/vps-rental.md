@@ -1,6 +1,10 @@
-# Краткий гайд по аренде vps
+<div id="header" align="center">
+    <h1>Краткий гайд по аренде vps</h1>
+</div>
 
-### Создание сервера.
+<div id="header" align="center">
+    <h3>Создание сервера</h3>
+</div>
 
 Переходим на официальный сайт **TimeWeb** и регистрируемся по [ссылке](https://timeweb.cloud/my/registration).
 
@@ -42,7 +46,9 @@
 
 ![Дашборд](../pictures/vps-rental-pic-9.png)
 
-### Вход на сервер
+<div id="header" align="center">
+    <h3>Вход на сервер</h3>
+</div>
 
 Переходим в **консоль**
 
