@@ -11,7 +11,7 @@
     <h3>Навигация по файлам</h3>
 </div>
 
-* Работа с IDE: [горячие клавиши и boiler plates IntelliJ IDEA](../doc-files/intellij-idea-hot-keys-and-boilerplates.md)
+* Работа с IDE: [горячие клавиши и boiler plates IntelliJ IDEA](problem-1/intellij-idea-hot-keys-and-boilerplates.md)
 * Работа с git:
-    * [основные команды git](../doc-files/git-commands.md)
-    * [создание pull request](../doc-files/pull-request-example.md)
+    * [основные команды git](problem-1/git-commands.md)
+    * [создание pull request](problem-1/pull-request-example.md)
