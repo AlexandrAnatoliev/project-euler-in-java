@@ -46,3 +46,4 @@ project-dir/
 </div>
 
 Для работы с несколькими классами нужен **classpath**
+delete line
