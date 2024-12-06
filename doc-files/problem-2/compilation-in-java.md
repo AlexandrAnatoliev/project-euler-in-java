@@ -123,3 +123,63 @@ java -classpath ./bin src.BoxMachine
     ./bin           - название папки, в которой лежат скомпилированные файлы
     src.BoxMachine  - название пакета и главного класса 
 ```
+
+<div id="header" align="center">
+    <h3>Создание JAR-файлов</h3>
+</div>
+
+Соберем скомпилированные файлы в **jar-файл** - архив классов.
+
+* В главном каталоге создадим файл-манифест **manifest.mf**:
+
+```
+project-dir/
+    manifest.mf
+    src/
+        Box.java
+        BoxMachine.java
+    bin/
+        src/
+            Box.class
+            BoxMachine.class
+```
+
+В нем указывается главный класс, который будет запускаться при выполнении **jar-файла**, **classpath** и дополнительная
+информация.
+
+```
+main-class: src.BoxMachine  // класс, содержащий метод main
+class-path: bin/            // путь к скомпилированным классам или дополнительным библиотекам
+```
+
+* Собираем **jar-файл**:
+
+```
+jar -cmf manifest.mf box-machine.jar -C bin .
+где:
+    -cmf            - флаг, после которого указывают путь к файлу манифеста
+    manifest.mf     - путь к манифесту
+    box-machine.jar - название выходного jar-файла
+    -C              - флаг, после которого указывают путь к скомпилированным классам
+    bin             - путь к скомпилированным классам
+    .               - путь, куда будет помещен jar-файл
+```
+
+**jar-файл** создан в текущей папке
+
+```
+project-dir/
+    box-machine.jar
+    manifest.mf
+    src/
+        Box.java
+        BoxMachine.java
+    bin/
+        src/
+            Box.class
+            BoxMachine.class
+```
+
+* Запускаем **jar-файл** командой:
+
+```java -jar box-machine.jar```
