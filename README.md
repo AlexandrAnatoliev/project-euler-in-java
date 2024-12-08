@@ -24,3 +24,11 @@ docs/.
     * Работа с git:
         * [основные команды git](../doc-files/git-commands.md)
         * [создание pull request](../doc-files/pull-request-example.md)
+
+2. [Четные числа Фибоначчи](problem-2/src/Problem2.java) 
+   * Работа с удаленным сервером:
+     * [аренда vps-сервера](doc-files/problem-2/vps-rental.md)
+     * [подключение к виртуальному серверу по ssh](doc-files/problem-2/connecting-to-vps-by-ssh.md)
+     * [копирование файлов на удаленный сервер по ssh](doc-files/problem-2/copying-files-over-ssh.md)
+     * [установка java на ubuntu сервер](doc-files/problem-2/java-installation.md)
+     * [компиляция в java без использования ide](doc-files/problem-2/compilation-in-java.md)
