@@ -1,4 +1,9 @@
-// delete this line
+/**
+ * project Euler problem 2
+ *
+ * @author AlexandrAnatoliev
+ * @version 0.1.0 2024-12-08
+ */
 public class Problem2 {
     public static void main(String[] args) {
 
