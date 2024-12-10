@@ -183,3 +183,19 @@ project-dir/
 * Запускаем **jar-файл** командой:
 
 ```java -jar box-machine.jar```
+
+В качестве проверки создадим отдельную директорию `lib/`, перенесем туда наш jar-файл и запустим  его оттуда.
+
+```
+project-dir/
+    manifest.mf
+    src/
+        Box.java
+        BoxMachine.java
+    bin/
+        src/
+            Box.class
+            BoxMachine.class
+    lib/
+        box-machine.jar
+```
