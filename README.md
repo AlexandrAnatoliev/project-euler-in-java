@@ -20,10 +20,10 @@ docs/.
 
 1. [Числа, кратные 3 или 5](problem-1/README.md)
     * Работа с
-      IDE: [горячие клавиши и boiler plates IntelliJ IDEA](../doc-files/intellij-idea-hot-keys-and-boilerplates.md)
+      IDE: [горячие клавиши и boiler plates IntelliJ IDEA](doc-files/problem-1/intellij-idea-hot-keys-and-boilerplates.md)
     * Работа с git:
-        * [основные команды git](../doc-files/git-commands.md)
-        * [создание pull request](../doc-files/pull-request-example.md)
+        * [основные команды git](doc-files/problem-1/git-commands.md)
+        * [создание pull request](doc-files/problem-1/pull-request-example.md)
 
 2. [Четные числа Фибоначчи](problem-2/src/Problem2.java)
     * Работа с удаленным сервером:
