@@ -13,7 +13,6 @@
 
 * Работа с IDE:
     * [горячие клавиши и boiler plates IntelliJ IDEA](problem-1/intellij-idea-hot-keys-and-boilerplates.md)
-    * [горячие клавиши Vim](problem-3/vim-hot-keys.md)
 * Работа с git:
     * [основные команды git](problem-1/git-commands.md)
     * [создание pull request](problem-1/pull-request-example.md)
@@ -23,3 +22,4 @@
     * [копирование файлов на удаленный сервер по ssh](problem-2/copying-files-over-ssh.md)
     * [установка java на ubuntu сервер](problem-2/java-installation.md)
     * [компиляция в java без использования ide](problem-2/compilation-in-java.md)
+    * [горячие клавиши Vim](problem-3/vim-hot-keys.md)
