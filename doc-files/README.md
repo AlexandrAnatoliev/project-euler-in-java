@@ -18,8 +18,8 @@
     * [создание pull request](problem-1/pull-request-example.md)
 * Работа с удаленным сервером:
     * [аренда vps-сервера](problem-2/vps-rental.md)
-    * [подключение к виртуальному серверу по ssh](problem-2/connecting-to-vps-by-ssh.md)
-    * [копирование файлов на удаленный сервер по ssh](problem-2/copying-files-over-ssh.md)
-    * [установка java на ubuntu сервер](problem-2/java-installation.md)
     * [компиляция в java без использования ide](problem-2/compilation-in-java.md)
+    * [копирование файлов на удаленный сервер по ssh](problem-2/copying-files-over-ssh.md)
+    * [подключение к виртуальному серверу по ssh](problem-2/connecting-to-vps-by-ssh.md)
+    * [установка java на ubuntu сервер](problem-2/java-installation.md)
     * [горячие клавиши Vim](problem-3/vim-hot-keys.md)
