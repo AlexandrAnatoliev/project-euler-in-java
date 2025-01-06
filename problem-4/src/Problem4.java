@@ -2,7 +2,7 @@
  * project Euler problem 3
  *
  * @author AlexandrAnatoliev
- * @version 0.3.1 2025-01-06
+ * @version 0.3.2 2025-01-06
  */
 
 public class Problem4 {
@@ -12,16 +12,16 @@ public class Problem4 {
 
         Data data = userInterface.setUserInput();
         int answer = 0;
-        int num = (int) Math.sqrt(data.getMaxNum());
+        int fact1 = (int) Math.sqrt(data.getMaxNum());
 
-        while (answer < num * num && num > data.getMinNum()) {
-            for (int i = num; i > data.getMinNum(); i--) {
-                if (isPalindrome(String.valueOf(num * i))) {
-                    answer = Math.max(i * num, answer);
+        while (answer < fact1 * fact1) {
+            for (int fact2 = fact1; fact1 * fact2 > data.getMinNum(); fact2--) {
+                if (isPalindrome(String.valueOf(fact1 * fact2))) {
+                    answer = Math.max(fact2 * fact1, answer);
                     break;
                 }
             }
-            num--;
+            fact1--;
         }
         System.out.println("The largest palindrome between " + data.getMinNum() + " and " + data.getMaxNum() + " is " + answer);
     }
