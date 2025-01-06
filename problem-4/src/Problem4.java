@@ -2,7 +2,7 @@
  * project Euler problem 3
  *
  * @author AlexandrAnatoliev
- * @version 0.3.0 2025-01-06
+ * @version 0.3.1 2025-01-06
  */
 
 public class Problem4 {
@@ -23,7 +23,7 @@ public class Problem4 {
             }
             num--;
         }
-        System.out.println(answer);
+        System.out.println("The largest palindrome between " + data.getMinNum() + " and " + data.getMaxNum() + " is " + answer);
     }
 
     public static String reverse(String string) {
