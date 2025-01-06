@@ -2,17 +2,19 @@
  * project Euler problem 3
  *
  * @author AlexandrAnatoliev
- * @version 0.1.0 2025-01-06
+ * @version 0.2.0 2025-01-06
  */
 
 public class Problem4 {
     public static void main(String[] args) {
-
+        Data data = new Data();
+        data.setMaxNum(999999);
+        data.setMinNum(99);
         int answer = 0;
-        int num = 999;
+        int num = (int) Math.sqrt(data.getMaxNum());
 
-        while (answer < num * num && num > 99) {
-            for (int i = num; i > 99; i--) {
+        while (answer < num * num && num > data.getMinNum()) {
+            for (int i = num; i > data.getMinNum(); i--) {
                 if (isPalindrome(String.valueOf(num * i))) {
                     answer = Math.max(i * num, answer);
                     break;
@@ -30,6 +32,4 @@ public class Problem4 {
     public static boolean isPalindrome(String string) {
         return string.equals(reverse(string));
     }
-
-
 }
