@@ -23,7 +23,8 @@ public class Problem4 {
             }
             fact1--;
         }
-        System.out.println("The largest palindrome between " + data.getMinNum() + " and " + data.getMaxNum() + " is " + answer);
+        System.out.println("The largest palindrome between " + data.getMinNum() +
+                " and " + data.getMaxNum() + " is " + answer);
     }
 
     public static String reverse(String string) {
