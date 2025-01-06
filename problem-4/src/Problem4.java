@@ -2,14 +2,15 @@
  * project Euler problem 3
  *
  * @author AlexandrAnatoliev
- * @version 0.2.0 2025-01-06
+ * @version 0.3.0 2025-01-06
  */
 
 public class Problem4 {
     public static void main(String[] args) {
-        Data data = new Data();
-        data.setMaxNum(999999);
-        data.setMinNum(99);
+
+        UserInterface userInterface = new UserInterface();
+
+        Data data = userInterface.setUserInput();
         int answer = 0;
         int num = (int) Math.sqrt(data.getMaxNum());
 
