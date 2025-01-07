@@ -3,10 +3,10 @@ package problem4;
  * project Euler problem 4
  *
  * @author AlexandrAnatoliev
- * @version 0.4.0 2025-01-06
+ * @version 0.4.1 2025-01-06
  */
 
-public class Problem4 {
+public class Main {
     public static void main(String[] args) {
 
         UserInterface userInterface = new UserInterface();
