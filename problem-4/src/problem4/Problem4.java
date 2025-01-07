@@ -1,3 +1,4 @@
+package problem4;
 /**
  * project Euler problem 4
  *

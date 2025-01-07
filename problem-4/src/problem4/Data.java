@@ -1,3 +1,5 @@
+package problem4;
+
 public class Data {
     private int maxNum;
     private int minNum;
