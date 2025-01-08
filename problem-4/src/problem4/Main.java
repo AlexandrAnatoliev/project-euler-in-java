@@ -3,7 +3,7 @@ package problem4;
  * project Euler problem 4
  *
  * @author AlexandrAnatoliev
- * @version 0.4.2 2025-01-06
+ * @version 0.4.3 2025-01-06
  */
 public class Main {
     public static void main(String[] args) {
