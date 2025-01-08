@@ -1,6 +1,9 @@
 package solve5;
 
 public class GreatestCommonDivisor implements Function {
+    public GreatestCommonDivisor() {
+    }
+
     @Override
     public long get(long num1, long num2) {
         while (num1 != 0 && num2 != 0) {
