@@ -1,6 +1,6 @@
 package solve5;
 
-public class LeastCommonMultiple implements Function {
+public class GreatestCommonDivisor implements Function {
     @Override
     public long get(long num1, long num2) {
         while (num1 != 0 && num2 != 0) {
