@@ -30,4 +30,35 @@ The search for **fact1** will stop when the product of the factors **fact1 * fac
 * enum and package was used
 * the user interface was separated into a class
 
+<div id="header" align="center">
+    <h3>Installing, compiling and running the program</h3>
+</div>
 
+Use [instruction](../../doc-files/problem-2/compilation-in-java.md)
+
+* Clone the repository to your local computer
+```declarative
+git clone https://github.com/AlexandrAnatoliev/project-euler-in-java
+```
+* To compile the program, you need to run the command from the main directory (problem-4/):
+```declarative
+javac -d bin ./src/problem4/*
+```
+* Now the compiled files appear in the bin/ folder. Run program by command:
+```declarative
+java -classpath ./bin problem4.Main 
+```
+* **Creating JAR-file**
+* In the main repository (problem-4/), create a manifest file **manifest.mf**:
+```declarative
+main-class: problem4.Main
+class-path: bin/
+```
+* Building a jar file:
+```declarative
+jar -cmf manifest.mf problem4.jar -C bin .
+```
+* Run a jar file:
+```declarative
+java -jar problem4.jar 
+```
