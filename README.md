@@ -36,3 +36,5 @@ docs/.
 3. [Наибольший простой делитель](problem-3/src/Problem3.java)
     * Работа с удаленным удаленным сервером:
         * [горячие клавиши vim](doc-files/problem-3/vim-hot-keys.md)
+
+4. [Largest Palindrome Product](problem-4/src/problem4/Main.java)
