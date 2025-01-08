@@ -1,5 +1,11 @@
 package solve5;
 
+/**
+ * project Euler problem 5
+ *
+ * @author AlexandrAnatoliev
+ * @version 0.1.0 2025-01-08
+ */
 public class Main {
     public static void main(String[] args) {
         long answ = 1;
