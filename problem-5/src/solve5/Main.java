@@ -4,7 +4,7 @@ package solve5;
  * project Euler problem 5
  *
  * @author AlexandrAnatoliev
- * @version 0.3.3 2025-01-08
+ * @version 0.3.4 2025-01-08
  */
 public class Main {
     public static void main(String[] args) {
