@@ -4,7 +4,7 @@ package solve5;
  * project Euler problem 5
  *
  * @author AlexandrAnatoliev
- * @version 0.1.3 2025-01-08
+ * @version 0.2.0 2025-01-08
  */
 public class Main {
     public static void main(String[] args) {
@@ -17,18 +17,4 @@ public class Main {
         System.out.println(answ);
     }
 
-    public static long getGCD(long num1, long num2) {
-        while (num1 != 0 && num2 != 0) {
-            if (num1 > num2) {
-                num1 %= num2;
-            } else {
-                num2 %= num1;
-            }
-        }
-        return Math.max(num1, num2);
-    }
-
-    public static long getLCM(long num1, long num2) {
-        return (num1 * num2) / getGCD(num1, num2);
-    }
 }
