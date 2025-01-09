@@ -6,11 +6,11 @@ import java.util.InputMismatchException;
  * project Euler problem 5
  *
  * @author AlexandrAnatoliev
- * @version 0.3.5 2025-01-08
+ * @version 0.4.0 2025-01-08
  */
 public class Main {
     public static void main(String[] args) {
-        long answer = 1;
+//        long answer = 1;
 
         Data data;
         UserInterface userInterface = new UserInterface();
@@ -22,12 +22,10 @@ public class Main {
             data = userInterface.setUserInput();
         }
 
-        LeastCommonMultiple lcm = new LeastCommonMultiple();
-        for (long i = data.getFirstNum(); i < data.getPastNum(); i++) {
-            answer = lcm.get(answer, i);
-        }
+        Answer answer = new Answer();
+        long answ = answer.get(data.getFirstNum(), data.getPastNum());
 
-        System.out.println(answer + " is the smallest number that can be divided by each of the numbers from " +
+        System.out.println(answ + " is the smallest number that can be divided by each of the numbers from " +
                 data.getFirstNum() + " to " + data.getPastNum() + " without any remainder.");
     }
 
