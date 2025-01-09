@@ -30,4 +30,6 @@ public class Main {
         System.out.println(answer + " is the smallest number that can be divided by each of the numbers from " +
                 data.getFirstNum() + " to " + data.getPastNum() + " without any remainder.");
     }
+
 }
+
