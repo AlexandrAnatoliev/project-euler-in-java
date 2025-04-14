@@ -11,6 +11,9 @@
     <h3>Навигация по файлам</h3>
 </div>
 
+* java
+  * [компиляция в java без использования ide](java/compilation-in-java.md)
+  * [установка java на ubuntu сервер](java/java-installation.md)
 * Работа с IDE:
     * [горячие клавиши и boiler plates IntelliJ IDEA](problem-1/intellij-idea-hot-keys-and-boilerplates.md)
 * Работа с git:

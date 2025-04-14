@@ -18,23 +18,5 @@ docs/.
 
 ### Список решенных задач
 
+0. [DevOps и devTools](doc-files/README.md)
 1. [Числа, кратные 3 или 5](problem-1/README.md)
-    * Работа с IDE:
-        * [горячие клавиши и boiler plates IntelliJ IDEA](doc-files/problem-1/intellij-idea-hot-keys-and-boilerplates.md)
-    * Работа с git:
-        * [основные команды git](doc-files/problem-1/git-commands.md)
-        * [создание pull request](doc-files/problem-1/pull-request-example.md)
-
-2. [Четные числа Фибоначчи](problem-2/src/Problem2.java)
-    * Работа с удаленным сервером:
-        * [аренда vps-сервера](doc-files/problem-2/vps-rental.md)
-        * [подключение к виртуальному серверу по ssh](doc-files/problem-2/connecting-to-vps-by-ssh.md)
-        * [копирование файлов на удаленный сервер по ssh](doc-files/problem-2/copying-files-over-ssh.md)
-        * [установка java на ubuntu сервер](doc-files/problem-2/java-installation.md)
-        * [компиляция в java без использования ide](doc-files/problem-2/compilation-in-java.md)
-
-3. [Наибольший простой делитель](problem-3/src/Problem3.java)
-    * Работа с удаленным удаленным сервером:
-        * [горячие клавиши vim](doc-files/problem-3/vim-hot-keys.md)
-
-4. [Largest Palindrome Product](problem-4/src/problem4/Main.java)
