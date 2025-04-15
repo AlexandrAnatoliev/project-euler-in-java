@@ -2,21 +2,17 @@
     <h1>project-euler-in-java</h1>
 </div>
 
-Данный проект является учебным и служит своеобразным конспектом моего изучения языка java.
+This project is educational and serves as a kind of summary of my study of the Java language.
 
-При решении каждой задачи проекта Эйлера будет отрабатываться один или несколько новых навыков:
+Each Project Euler problem will be practiced with one or more new skills:
 
-* алгоритм
-* структура данных
-* конструкция языка
-* инструменты разработчика
-* DevOps
-* и т.п.
+* algorithms;
+* data structures;
+* language design;
+* developer tools;
+* DevOps;
+* etc.
 
-Код каждой задачи будет оформляться полноценным проектом, изучаемые попутно вопросы будут конспектироваться в папку
-docs/.
+### List of solved problems
 
-### Список решенных задач
-
-0. [DevOps и devTools](doc-files/README.md)
-1. [Числа, кратные 3 или 5](problem-1/README.md)
+1. [Multiples of 3 or 5](problem-1/README.md)

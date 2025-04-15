@@ -1,36 +1,33 @@
 <div id="header" align="center">
-    <h1>problem-1 "Числа, кратные 3 или 5"</h1>
+    <h1>problem-1 "Multiples of 3 or 5"</h1>
 </div>
 
 <div id="header" align="center">
-    <h3>Условия задачи</h3>
+    <h3>Problem statement</h3>
 </div>
-
-*Если выписать все натуральные числа меньше 10, кратные 3 или 5, то получим 3, 5, 6 и 9. Сумма этих чисел равна 23.
-Найдите сумму всех чисел меньше 1000, кратных 3 или 5.*
+If we list all the natural numbers below 10 that are multiples of 3 or 5 , we get 3, 5, 6 and 9 . The sum of these multiples is 23
+Find the sum of all the multiples of 3 or 5 below 1000.
 
 <div id="header" align="center">
-    <h3>Алгоритм решения</h3>
+    <h3>Solution algorithm</h3>
 </div>
 
-* В цикле **for** перебираем натуральные числа **num** от **одного** до **тысячи**.
-* Каждое из них проверяем на соответствие условиям задачи с помощью метода **isMultiple**.
-* Числа, удовлетворяющие условиям задачи, суммируем в переменную **answer**.
+* In the **for** loop, we iterate over the natural numbers **num** from **one** to **thousand**.
+* We check each of them for compliance with the problem conditions
+* The numbers that satisfy the problem conditions are summed up in the **answer** variable.
 
 <div id="header" align="center">
-    <h3>Новые навыки, отрабатываемые при решении задачи</h3>
+    <h3>New skills practiced while solving the problem</h3>
 </div>
 
-* Установка jdk на linux (/usr/lib/jvm/)
-* [Установка jdk на ubuntu сервер](/doc-files/java/java-installation.md);
-* Компиляция исходного кода программы с помошью утилиты **javac** и запуск скомпилированного кода с помощью утилиты **java**
-* [Компиляция в java](/doc-files/java/compilation-in-java.md);
-* Объявление и инициализация переменной
-* Арифметическая операция **%**
-* Сочетание арифметической операции с присваиванием **+=**
-* Операция инкремента **++**
-* Операции отношения **==** и логические **<** и **||**
-* Сцепление строки с числом
-* Область видимости, вложенные блоки
-* Условный оператор **if**
-* Цикл **for**
+* Installing **jdk** on **linux**
+* Compiling the program source code using the **javac** utility and running the compiled code using the **java** utility
+* Declaring and initializing a variable
+* Arithmetic operation **%**
+* Combining an arithmetic operation with assignment **+=**
+* Increment operation **++**
+* Relational operations **==** and logical **<** and **||**
+* Concatenating a string with a number
+* Visibility scope, nested blocks
+* Conditional operator **if**
+* Cycle **for**
