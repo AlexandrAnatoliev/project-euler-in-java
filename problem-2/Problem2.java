@@ -12,7 +12,7 @@ public class Problem2 {
     int firstFib = 1;
     int secondFib = 2;
     int nextFib = 3; // 1 + 2
-    int answer = 2; // сразу заносим в ответ как четное
+    int answer = 0;
 
     Scanner input = new Scanner(System.in);
     System.out.print("Input max value Fibonacci sequence term: ");
@@ -20,13 +20,13 @@ public class Problem2 {
 
     while (nextFib < max) {
 
+      if (secondFib % 2 == 0) {
+        answer += secondFib;
+      }
+
       nextFib = firstFib + secondFib;
       firstFib = secondFib;
       secondFib = nextFib;
-
-      if (nextFib % 2 == 0) {
-        answer += nextFib;
-      }
     }
 
     System.out.println("Answer is " + answer);
