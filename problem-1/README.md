@@ -20,8 +20,8 @@ Find the sum of all the multiples of 3 or 5 below 1000.
     <h3>New skills practiced while solving the problem</h3>
 </div>
 
-* Installing **jdk** on **linux**
-* Compiling the program source code using the **javac** utility and running the compiled code using the **java** utility
+*[Installing **jdk** on **linux**](https://java-practice/blog/ustanovka-java.jsp)
+* [Compiling the program source code using the **javac** utility and running the compiled code using the **java** utility](https://java-practice/blog/kompilyaciya-java-koda.jsp)
 * Declaring and initializing a variable
 * Arithmetic operation **%**
 * Combining an arithmetic operation with assignment **+=**
