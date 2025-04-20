@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * project Euler problem 2
  *
@@ -12,7 +14,11 @@ public class Problem2 {
     int nextFib = 3; // 1 + 2
     int answer = 2; // сразу заносим в ответ как четное
 
-    while (nextFib < 4_000_000) {
+    Scanner input = new Scanner(System.in);
+    System.out.print("Input max value Fibonacci sequence term: ");
+    int max = input.nextInt();
+
+    while (nextFib < max) {
 
       nextFib = firstFib + secondFib;
       firstFib = secondFib;
