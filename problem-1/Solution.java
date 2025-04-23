@@ -4,7 +4,7 @@
  * @author AlexandrAnatoliev
  * @version 0.2.0 2024-10-19
  */
-public class Problem1 {
+public class Solution {
 
   public static void main(String[] args) {
 
