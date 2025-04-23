@@ -1,5 +1,5 @@
 <div id="header" align="center">
-    <h1>problem-1 "Multiples of 3 or 5"</h1>
+    <h1>Problem-1 "Multiples of 3 or 5"</h1>
 </div>
 
 <div id="header" align="center">
