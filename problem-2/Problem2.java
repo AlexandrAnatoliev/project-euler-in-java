@@ -30,5 +30,6 @@ public class Problem2 {
     }
 
     System.out.println("Answer is " + answer);
+    input.close();
   }
 }
