@@ -4,7 +4,7 @@
  * @author AlexandrAnatoliev
  * @version 0.1.0 2024-12-21
  */
-public class Problem3 {
+public class Solution {
     public static void main(String[] args) {
 
         long num = 600_851_475_143L;
