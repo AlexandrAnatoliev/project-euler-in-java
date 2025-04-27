@@ -1,11 +1,11 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SolutionTest {
+public class CalculatorTest {
 	@Test
 	public void testAdd() {
 		Calculator calculator = new Calculator();
-		int result = calculator.add(2, 3);
-		assertEquals(5, result, "2+3=5");
+		long result = calculator.getMinDiv(15);
+		assertEquals(3, result, "15%3 == 0");
 	}
 }
