@@ -16,7 +16,7 @@ public class Calculator {
         return 1;
     }
     
-    public long getNearGreaterDiv(long div, long number) {
+    public long getNearGreaterDiv(long number, long div) {
                 
         if(number % div == 0) {
         	return div;
