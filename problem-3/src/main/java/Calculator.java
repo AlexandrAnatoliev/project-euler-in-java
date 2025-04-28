@@ -35,4 +35,15 @@ public class Calculator {
 
         return 1;
     }
+    
+    public long getMaxPrimeDiv(long num) {
+        long minDiv = getNearGreaterDiv(num, 2);
+
+        while (minDiv != 1) {
+            num = num / minDiv;
+            minDiv = getNearGreaterDiv(num, minDiv);
+        }
+        return num;
+    }
+    
 }
