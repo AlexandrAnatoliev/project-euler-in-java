@@ -8,4 +8,11 @@ public class CalculatorTest {
 		int result = calculator.getMinDiv(15);
 		assertEquals(3, result, "15%3 == 0");
 	}
+	
+    @Test
+    public void testGetNearGreaterDiv() {
+    	Calculator calculator = new Calculator();
+    	long result = calculator.getNearGreaterDiv(3, 15);
+    	assertEquals(3, result, "15%3 == 0");
+    }
 }
