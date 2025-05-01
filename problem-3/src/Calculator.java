@@ -3,9 +3,9 @@
  * This class performs calculations
  */
 
-public class Calculator {
+class Calculator {
 
-    public long getNearGreaterDiv(long number, long div) {
+    long getNearGreaterDiv(long number, long div) {
                 
         if(number % div == 0) {
         	return div;
@@ -25,7 +25,7 @@ public class Calculator {
         return 1;
     }
     
-    public long getMaxPrimeDiv(long num) {
+    long getMaxPrimeDiv(long num) {
         long minDiv = getNearGreaterDiv(num, 2);
 
         while (minDiv != 1) {
