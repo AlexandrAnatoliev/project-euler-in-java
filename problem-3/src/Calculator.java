@@ -5,7 +5,7 @@
 
 class Calculator {
 
-    long getNearGreaterDiv(long number, long div) {
+    long getMinDiv(long number, long div) {
                 
         if(number % div == 0) {
         	return div;
@@ -22,11 +22,11 @@ class Calculator {
     }
     
     long getMaxPrimeDiv(long num) {
-        long minDiv = getNearGreaterDiv(num, 2);
+        long minDiv = getMinDiv(num, 2);
 
         while (minDiv != 1) {
             num = num / minDiv;
-            minDiv = getNearGreaterDiv(num, minDiv);
+            minDiv = getMinDiv(num, minDiv);
         }
         return num;
     }
