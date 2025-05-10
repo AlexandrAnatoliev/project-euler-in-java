@@ -6,14 +6,13 @@
 class Calculator {
 
     long getMinDiv(long number, long div) {
+    	if((number % div == 0) && (div * div <= number)) {
+    		return div;
+    	}
                 
-        if(number % div == 0) {
-        	return div;
-        }
-
-        div = (div % 2 == 0) ? (div + 1) : (div + 2);
+        div = (div % 2 == 0) ? (div + 1) : (div);
         
-        for (long i = div; i * i < number; i += 2) {
+        for (long i = div; i * i <= number + 1; i += 2) {
             if (number % i == 0)
                 return i;
         }
@@ -22,12 +21,13 @@ class Calculator {
     }
     
     long getMaxPrimeDiv(long num) {
-        long minDiv = getMinDiv(num, 2);
+    	long minDiv = 2;
 
-        while (minDiv != 1) {
-            num = num / minDiv;
+    	do {
             minDiv = getMinDiv(num, minDiv);
-        }
+            num = num / minDiv;
+    	} while (minDiv != 1);
+    	
         return num;
     }
     
