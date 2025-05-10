@@ -1,46 +1,40 @@
 <div id="header" align="center">
-    <h1>problem-3 "Наибольший простой делитель"</h1>
+    <h1>Problem-3 "Largest Prime Factor"</h1>
 </div>
 
 <div id="header" align="center">
-    <h3>Условия задачи</h3>
+    <h3>Problem statement</h3>
 </div>
 
-Простые делители числа **13195 - это 5, 7, 13 и 29**.
+The prime factors of **13195 are 5, 7, 13** and **29**.
 
-Какой самый большой делитель числа **600851475143**, являющийся простым числом?
+What is the largest prime factor of the number **600851475143**?
 
 <div id="header" align="center">
-    <h3>Алгоритм решения</h3>
+    <h3>Solution algorithm</h3>
 </div>
 
-При целочисленном делении числа, мы получаем сразу два делителя: максимальный и минимальный.
-Например, число **15** можно представить как произведение **3** на **5**. Больший делитель, в свою очередь, также может
-быть разложен на делители.
+When dividing a number by an integer, we get two divisors at once: the maximum and the minimum. For example, the number **15** can be represented as the product of **3** and **5**. The larger divisor, in turn, can also be decomposed into divisors.
 
-При этом, если пребирать делители от меньшего к большему, то первый же найденный делитель будет априори минимальным и
-простым. Также нет необходимости проверять все делители от 2 до самого раскладываемого числа. Достаточно проверять
-делители только до корня квадратного из раскладываемого числа. Если до него делителей числа нет, то и дальше их не будет
-и проверяемое число является простым.
+In this case, if you sort the divisors from smaller to larger, then the first divisor found will be a priori minimal and prime. There is also no need to check all the divisors from 2 to the number being factored. It is enough to check the divisors only up to the square root of the number being factored. If there are no divisors of the number up to it, then there will be none further, and the number being checked is prime.
 
-Кроме того все четные числа делятся на **2**. Потому, проверив делимость числа на **2** можно не проверять его делимость на **4**, **6** и т.д.
+In addition, all even numbers are divisible by **2**. Therefore, having checked the divisibility of a number by **2**, you do not need to check its divisibility by **4**, **6**, etc.
 
-Так же при разложении числа на простые множители не нужно каждый раз проверять все множители. 
-Например, раскладываем число **13195** и последовательно проверяем его делимость на **2**, **3** и **5**. Обнаруживаем, что **13195 % 5 = 0 ** и сокращаем число **13195 / 5 = 2639**. 
-Нет необходимости заново проверять делимость числа **2639** на **2** и **3**, т.к. число **13195 ( = 2639 * 5)** уже на них проверялось ранее. 
-В то же время любое число может содержать и несколько одинаковых множителей (число **12 = 2 * 2 * 3**). Потому число **2639** нужно проверять на делимость чисел **5**, **9**, **11** и т.д.
+Also, when factoring a number into prime factors, you don't need to check all the factors each time.
+For example, we factor the number **13195** and sequentially check its divisibility by **2**, **3** and **5**. We find that **13195 % 5 = 0 ** and reduce the number **13195 / 5 = 2639**.
+There is no need to re-check the divisibility of the number **2639** by **2** and **3**, since the number **13195 ( = 2639 * 5)** has already been checked for them earlier.
+At the same time, any number can contain several identical factors (the number **12 = 2 * 2 * 3**). Therefore, the number **2639** needs to be checked for divisibility by the numbers **5**, **9**, **11**, etc.
  
 <div id="header" align="center">
   <h3>New skills practiced while solving the problem</h3>
 </div>
 
-* Применил передачу пользователем проверяемого числа через параметры командной строки (Хорстман 116)
-`java Solution 600851475143`
-* Созданы 2 класса: **Solution** - для получения пользовательского ввода, он содержащит метод **main()** и **Calculator**, имеющий два метода, необходимых для вычислений (Хорстман 127, 139)
-* С помощью конструктора создан объект **calculator**, экземпляр класса **Calculator** (Хорстман 128, 143)
-* Идентификация классов: имя класса **Calculator**, имена методов - глаголы, обозначающие действия, которые возможно совершить с объектом (Хорстман 128)
-* Применил предопределенный класс **Long** и его статический метод **parseLong()**, для того чтобы преобразовать строку в число (Хорстман 130, 153) 
-* Разместил два класса в двух разных файлах и скомпилировал их (Хорстман 142)
-`javac -d bin -sourcepath src src/Calculator.java src/Solution.java`
+* Command line parameters;
+* Divided the code into two classes in two different files;
+* Using the constructor, an object was created and calculations were performed using its methods;
+* Used the predefined **Long** class and its static method **parseLong()**.
+* [Creating JAR files;](https://java-practice.ru/blog/kompilyaciya-java-koda.jsp)
+* [Copying files via ssh;](https://java-practice.ru/blog/kopirovanie-fajlov-po-ssh.jsp)
+* Change java version;
 
 
