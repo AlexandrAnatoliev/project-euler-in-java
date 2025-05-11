@@ -17,3 +17,4 @@ Each Project Euler problem will be practiced with one or more new skills:
 
 1. [Multiples of 3 or 5](problem-1/README.md)
 2. [Even Fibonacci Numbers](problem-2/README.md)
+3. [Largest Prime Factor](problem-3/README.md)
