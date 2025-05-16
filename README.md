@@ -2,6 +2,8 @@
     <h1>project-euler-in-java</h1>
 </div>
 
+[Русский](README_ru.md)
+
 This project is educational and serves as a kind of summary of my study of the Java language.
 
 Each Project Euler problem will be practiced with one or more new skills:

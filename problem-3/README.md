@@ -2,6 +2,8 @@
     <h1>Problem-3 "Largest Prime Factor"</h1>
 </div>
 
+[In English](README.md)
+
 <div id="header" align="center">
     <h3>Problem statement</h3>
 </div>

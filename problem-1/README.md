@@ -2,9 +2,12 @@
     <h1>Problem-1 "Multiples of 3 or 5"</h1>
 </div>
 
+[Русский](README_ru.md)
+
 <div id="header" align="center">
     <h3>Problem statement</h3>
 </div>
+
 If we list all the natural numbers below 10 that are multiples of 3 or 5 , we get 3, 5, 6 and 9 . The sum of these multiples is 23
 Find the sum of all the multiples of 3 or 5 below 1000.
 
@@ -20,8 +23,8 @@ Find the sum of all the multiples of 3 or 5 below 1000.
     <h3>New skills practiced while solving the problem</h3>
 </div>
 
-* [Installing **jdk** on **linux**](https://java-practice.ru/blog/ustanovka-java.jsp)
-* [Compiling the program source code using the **javac** utility and running the compiled code using the **java** utility](https://java-practice.ru/blog/kompilyaciya-java-koda.jsp)
+* [Installing jdk on linux](https://java-practice.ru/blog/ustanovka-java.jsp)
+* [Compiling the program source code using the javac utility and running the compiled code using the java utility](https://java-practice.ru/blog/kompilyaciya-java-koda.jsp)
 * Declaring and initializing a variable
 * Arithmetic operation **%**
 * Combining an arithmetic operation with assignment **+=**
