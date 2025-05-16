@@ -2,7 +2,7 @@
     <h1>Problem-1 "Multiples of 3 or 5"</h1>
 </div>
 
-[Русский](README_ru.md)
+[Ru](README_ru.md)
 
 <div id="header" align="center">
     <h3>Problem statement</h3>

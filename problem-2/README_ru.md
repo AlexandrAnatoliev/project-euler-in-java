@@ -2,7 +2,7 @@
   <h1>Problem-2 "Четные числа Фибоначчи"</h1>
 </div>
 
-[In English](README.md)
+[En](README.md)
 
 <div id="header" align="center">
   <h3>Условия задачи</h3>
