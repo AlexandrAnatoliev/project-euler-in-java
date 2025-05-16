@@ -2,7 +2,7 @@
     <h1>Problem-3 "Наибольший простой делитель"</h1>
 </div>
 
-[Русский](README_ru.md)
+[In English](README.md)
 
 <div id="header" align="center">
     <h3>Условия задачи</h3>
