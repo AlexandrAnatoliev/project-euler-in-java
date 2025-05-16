@@ -2,7 +2,7 @@
     <h1>Problem-1 "Числа, кратные 3 или 5"</h1>
 </div>
 
-[In English](README.md)
+[En](README.md)
 
 <div id="header" align="center">
     <h3>Условия задачи</h3>

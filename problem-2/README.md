@@ -2,7 +2,7 @@
   <h1>Problem-2 "Even Fibonacci Numbers"</h1>
 </div>
 
-[Русский](README_ru.md)
+[Ru](README_ru.md)
 
 <div id="header" align="center">
   <h3>Problem statement</h3>
