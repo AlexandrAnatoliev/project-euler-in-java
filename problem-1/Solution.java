@@ -1,5 +1,3 @@
-/**
- * project Euler problem 1
  *
  * @author AlexandrAnatoliev
  * @version 0.2.0 2024-10-19
