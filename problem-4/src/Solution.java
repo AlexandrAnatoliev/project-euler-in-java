@@ -2,10 +2,12 @@
  * project Euler problem 4
  *
  * @author AlexandrAnatoliev
- * @version 0.6.2 2025-06-03
+ * @version 0.7.0 2025-06-03
  */
 public class Solution {
   public static void main(String[] args) {
+    int digits = (args.length > 0) ? (Integer.parseInt(args[0])) : (3);
+
     int limit = 999999;
     int answer = 0;
     int fact1 = (int) Math.sqrt(limit);
@@ -21,6 +23,22 @@ public class Solution {
     }
     System.out.println("The largest palindrome between " + 99999 +
         " and " + 999999 + " is " + answer);
+  }
+
+  /**
+   * Метод возвращающий максимальное число, которое можно получить умножением 2-х
+   * digits-значных чисел
+   * @param digits количество чисел во множителях
+   * @return максимальное число
+   */
+  public static int getMaxNumber(int digits) {
+    int maxNumber = 0;
+    int fact = 1;
+    for (int i = 0; i < digits; i++) {
+      maxNumber += 9 * fact;
+      fact *= 10;
+    }
+    return maxNumber * maxNumber;
   }
 
   /**

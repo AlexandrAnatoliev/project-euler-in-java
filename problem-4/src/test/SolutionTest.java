@@ -16,4 +16,10 @@ public class SolutionTest {
     boolean palindrome = Solution.isPalindrome(987789);
     assertTrue(palindrome);
   }
+
+  @Test
+  public void getMaxNumber_2_9801() {
+    int maxNumber = Solution.getMaxNumber(2);
+    assertEquals(9801, maxNumber, "99*99 = 9801");
+  }
 }
