@@ -24,5 +24,8 @@ src/test/SolutionTest.java`
 Запуск тестов:
 `java -jar /usr/share/java/junit-platform-console-standalone-1.9.1.jar --classpath bin/ --scan-class-path`
 
+## В программе использовал
+
+* Статические методы
 
 
