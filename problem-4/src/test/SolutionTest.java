@@ -1,19 +1,25 @@
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class SolutionTest {
+
   @Test
   public void invert_123456_to_654321() {
-    Solution solution = new Solution();
-    int result = solution.invert(123456);
+    int result = Solution.invert(123456);
     assertEquals(654321, result, "123456 invert to 654321");
   }
 
   @Test
   public void isPalindrome_987789 () {
-    Solution solution = new Solution();
-    boolean palindrome = solution.isPalindrome(987789);
+    boolean palindrome = Solution.isPalindrome(987789);
     assertTrue(palindrome);
+  }
+
+  @Test
+  public void getMaxNumber_2_9801() {
+    int maxNumber = Solution.getMaxNumber(2);
+    assertEquals(9801, maxNumber, "99*99 = 9801");
   }
 }

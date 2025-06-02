@@ -24,5 +24,12 @@ src/test/SolutionTest.java`
 Запуск тестов:
 `java -jar /usr/share/java/junit-platform-console-standalone-1.9.1.jar --classpath bin/ --scan-class-path`
 
+## В программе использовал
+
+* Математические функции (Хорстман 3.5.2)
+* Приведение типов (Хорстман 3.5.4)
+* Пустые и нулевые строки: args.lenght (Хорстман 3.6.5)
+* Прикладной програмный интерфейс api класса String (Хорстман 3.6.7)
+* Статические методы
 
 
