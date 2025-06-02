@@ -2,18 +2,20 @@
  * project Euler problem 4
  *
  * @author AlexandrAnatoliev
- * @version 0.7.0 2025-06-03
+ * @version 0.7.1 2025-06-03
  */
 public class Solution {
   public static void main(String[] args) {
     int digits = (args.length > 0) ? (Integer.parseInt(args[0])) : (3);
 
-    int limit = 999999;
+    int max = getMaxNumber(digits);
+    int min = getMaxNumber(digits - 1);
+
     int answer = 0;
-    int fact1 = (int) Math.sqrt(limit);
+    int fact1 = (int) Math.sqrt(max);
 
     while (answer < fact1 * fact1) {
-      for (int fact2 = fact1; fact1 * fact2 > 99999; fact2--) {
+      for (int fact2 = fact1; fact1 * fact2 > min; fact2--) {
         if (isPalindrome(fact1 * fact2)) {
           answer = Math.max(fact1 * fact2, answer);
           break;
@@ -21,13 +23,14 @@ public class Solution {
       }
       fact1--;
     }
-    System.out.println("The largest palindrome between " + 99999 +
-        " and " + 999999 + " is " + answer);
+    System.out.println("The largest palindrome between " + min +
+        " and " + max + " is " + answer);
   }
 
   /**
    * Метод возвращающий максимальное число, которое можно получить умножением 2-х
    * digits-значных чисел
+   * 
    * @param digits количество чисел во множителях
    * @return максимальное число
    */
