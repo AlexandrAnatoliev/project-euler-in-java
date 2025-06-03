@@ -2,7 +2,7 @@
  * project Euler problem 4
  *
  * @author AlexandrAnatoliev
- * @version 0.7.4 2025-06-03
+ * @version 0.7.5 2025-06-03
  */
 public class Solution {
   public static void main(String[] args) {
