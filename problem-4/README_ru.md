@@ -17,12 +17,25 @@
 /usr/share/java/junit-platform-console-standalone-1.9.1.jar
 ```
 
-Компиляция тестового класса:
+Для планшета samsung:
+```
+/usr/share/java/junit-jupiter-api-5.3.2.jar
+/usr/share/java/junit-platform-console-standalone-1.3.2.jar
+```
+
+Компиляция тестового класса (honor):
 `javac -d bin/ -cp "/usr/share/java/junit-jupiter-api-5.10.1.jar:/usr/share/java/junit-platform-console-standalone-1.9.1.jar:bin" 
 src/test/SolutionTest.java`
 
-Запуск тестов:
+Запуск тестов (honor):
 `java -jar /usr/share/java/junit-platform-console-standalone-1.9.1.jar --classpath bin/ --scan-class-path`
+
+Компиляция тестового класса (samsung):
+`javac -d bin/ -cp "/usr/share/java/junit-jupiter-api-5.3.2.jar:/usr/share/java/junit-platform-console-standalone-1.3.2.jar:bin" 
+src/test/SolutionTest.java`
+
+Запуск тестов (samsung):
+`java -jar /usr/share/java/junit-platform-console-standalone-1.3.2.jar --classpath bin/ --scan-class-path`
 
 ## В программе использовал
 
