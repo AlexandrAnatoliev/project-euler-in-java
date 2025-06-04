@@ -2,7 +2,7 @@
  * project Euler problem 4
  *
  * @author AlexandrAnatoliev
- * @version 0.7.2 2025-06-03
+ * @version 0.7.5 2025-06-03
  */
 public class Solution {
   public static void main(String[] args) {
@@ -28,11 +28,10 @@ public class Solution {
   }
 
   /**
-   * Метод возвращающий максимальное число, которое можно получить умножением 2-х
-   * digits-значных чисел
+   * Method to return 9*9, 99*99 e.t.c	
    * 
-   * @param digits количество чисел во множителях
-   * @return максимальное число
+   * @param digits in numbers (99 = 2, 999 = 3 ...)
+   * @return max number
    */
   public static int getMaxNumber(int digits) {
     int maxNumber = 0;
