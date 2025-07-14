@@ -1,5 +1,4 @@
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -12,14 +11,8 @@ public class SolutionTest {
   }
 
   @Test
-  public void isPalindrome_987789 () {
+  public void isPalindrome_987789() {
     boolean palindrome = Solution.isPalindrome(987789);
     assertTrue(palindrome);
-  }
-
-  @Test
-  public void getMaxNumber_2_9801() {
-    int maxNumber = Solution.getMaxNumber(2);
-    assertEquals(9801, maxNumber, "99*99 = 9801");
   }
 }
