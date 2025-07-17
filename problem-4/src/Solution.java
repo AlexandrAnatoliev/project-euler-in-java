@@ -2,20 +2,20 @@
  * project Euler problem 4
  *
  * @author AlexandrAnatoliev
- * @version 0.8.1 2025-07-14
+ * @version 0.9.0 2025-07-14
  */
 public class Solution {
   public static void main(String[] args) {
-    int digits = (args.length > 0) ? (Integer.parseInt(args[0])) : (6);
+    int digits = (args.length > 0) ? (Integer.parseInt(args[0])) : (3);
 
     int max = (int) Math.pow(10, digits) - 1;
-    int min = (int) Math.pow(10, digits - 2);
+    int min = (int) Math.pow(10, digits - 1);
 
     int answer = 0;
-    int fact1 = (int) Math.sqrt(max);
+    int fact1 = max;
 
     while (answer < fact1 * fact1) {
-      for (int fact2 = fact1; fact1 * fact2 > min; fact2--) {
+      for (int fact2 = fact1; fact2 > min; fact2--) {
         if (isPalindrome(fact1 * fact2)) {
           answer = Math.max(fact1 * fact2, answer);
           break;
